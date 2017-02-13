@@ -1,0 +1,153 @@
+body {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	width: 100%;
+	overflow: vertical-scroll;
+}
+
+.header {
+	position: absolute;
+    background-color: #00CED1;
+    text-align: left;
+    font-size: 15px;
+    padding: 0;
+    height: 85px;
+    display: inline-block;
+    box-sizing: border-box;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+.nav {
+    float: right;
+    margin: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.containerMain {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+h1 {
+    font-family: 'Luckiest Guy', cursive;
+	color: black;
+    width: auto;
+	max-width: 30%;
+    background-color: #FFB6C1;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+    height: 45px;
+    float: left;
+    font-size: 30px;
+
+}
+
+h2 {
+	font-family: 'Luckiest Guy', cursive;
+	color: #00CED1;
+	text-align: left;
+	border-bottom: 1px solid #cccccc;
+	padding-bottom: 30px;
+	margin-top: 10px;
+}
+
+h3 {
+	font-family: 'Luckiest Guy', cursive;
+	color: #00CED1;
+	text-align: center;
+	border-bottom: 1px solid #cccccc;
+	padding-bottom: 30px;
+}
+
+.profile {
+    padding-right: 20px;
+}
+
+.firstparagraph {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: white;
+	margin-top: -20px;
+	text-align: left;
+}
+
+.secondparagraph {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: white;
+    text-align: left;
+}
+
+
+.container {
+    background-color: #696969;
+    width: 600px;
+    max-width: 70%;
+    border: 0px;
+    padding: 25px;
+    margin-top: 130px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 130px;
+
+    }
+
+.container2 {
+    background-color: #696969;
+    width: 50%;
+    max-width: 70%;
+    border: 0px;
+    padding: 25px;
+    margin-top: 130px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 130px;
+ 	z-index: 1;
+
+    }
+
+.btn {
+    color: #00CED1;
+}
+
+.portfolio {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.thumbnail {
+    width: 50%;
+    height: auto;
+}
+
+.sidebar {
+	float: left;
+	background-color: #696969;
+    width: auto;
+    height: auto;
+	border: 0px;
+	padding: 10px;
+	font-size: 15px;
+	margin-top: 130px;
+}
+
+.footer {
+	position: fixed;
+    background-color: #FFB6C1;
+    color: black;
+   	padding: 15px;
+    text-align: center;
+    font-size: 10px;
+    width: 100%;
+	line-height: 4.5em;
+	bottom: 0;
+	margin-left: -10px;
+}
